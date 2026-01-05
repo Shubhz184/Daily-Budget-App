@@ -13,7 +13,7 @@ typedef struct TransactionNode
 typedef struct DayRecordNode
 {
     int date;
-    float budget;
+    int budget;
     float remaining;
     struct DayRecordNode *next;
 } DayRecordNode;
